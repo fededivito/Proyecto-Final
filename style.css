@@ -1,0 +1,174 @@
+/* HEADER */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    height: 100px;
+}
+.menu-container {
+    display: flex;
+    background-color: grey;
+    height: 150px;
+}
+
+.logo {
+    margin:30px;
+    margin-left: 30px;
+}
+
+
+.menu li {
+    width: 10%;
+    padding-top: 70px;
+    padding-left: 110px;
+    display: inline-block;
+    width: 90px;
+    font-size: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* FIN HEADER */
+
+/*  MAIN */
+
+/*  Section 1 */
+.product-container {
+    margin: 40px;
+    display: flex;
+}
+
+.h1 {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.p {
+    font-size: 20px;
+    padding-top: 250px;
+    margin-left: -500px;
+}
+.q5 { 
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    width: 350px;
+    height: 350px;
+  
+}
+.funda {
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    width: 350px;
+    height: 350px;
+  
+}
+
+.product {
+    border: solid;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+
+/* Fin section 1 */
+
+/* Section 2 */
+.items-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    align-items: center;
+}
+
+.item1 {
+
+    width: 100px;
+    height: 100px;
+}
+
+.item2 {
+
+    width: 100px;
+    height: 100px;
+}
+.h2 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.p2 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section div {
+    text-align:center;
+}
+
+/* Fin main */
+
+/* Footer */
+.photo-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: grey;
+    align-items: center;
+    height: 200px
+}
+
+.footer-div {
+    text-align:center;
+    height: 100px;
+    list-style: none;
+}
+
+footer div ul li {
+    text-align: center;
+    list-style: none;
+}
+
+.fotos-footer {
+    display: flex;
+    width: 15px;
+    height: 15px;
+}
+
+footer h5 {
+    font-size: 20px;
+}
+/* Fin footer */
+
+/* Nosotros */
+.p3 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+/* Fin nosotros */
+
+/* Productos*/
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    height: 200px
+}
+/* Fin productos */
+
+/* Distribuidores */
+.distribuidores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+}
