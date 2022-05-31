@@ -168,7 +168,10 @@ footer h5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    height: 200px;
     font-size: 20px;
-    margin-top: 50px;
+    width: 100%
+}
+
+.tredema {
+    width: 50%;
 }
