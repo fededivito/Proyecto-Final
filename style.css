@@ -154,24 +154,86 @@ footer h5 {
 /* Fin nosotros */
 
 /* Productos*/
+
 .products {
+    margin-bottom: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
     height: 200px
 }
+
+.products img:hover {
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.mascara-p {
+    border: solid 1px black;
+    margin: 20px 20px 20px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.funda-p {
+    border: solid 1px black;
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.funda-a {
+    border: solid 1px black;
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.cubre-a {
+    border: solid 1px black;
+    margin: 20px 20px 20px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.cubre-m {
+    border: solid 1px black;
+    margin: 20px 20px 20px 20px;
+    width: 300px;
+    height: 200px;
+}
+
+.cubre-v {
+    border: solid 1px black;
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+    height: 200px;
+}
 /* Fin productos */
 
 /* Distribuidores */
+
 .distribuidores {
+    margin-top: 30px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     font-size: 20px;
-    width: 100%
+    width: 100%;
 }
 
+.distribuidores p{
+    margin-bottom: 40px;
+}
 .tredema {
-    width: 50%;
+    width: 50%; 
+}
+
+.fotos-distribuidores{
+    margin-bottom: 50px;
+}
+.fotos-distribuidores:hover {
+    transform: scale(1.5);
+    transition: all 2s;
 }
