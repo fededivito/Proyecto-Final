@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-desarrollo-web",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Federico Di Vito</h1>\r <h3 align=\"center\">A passionate frontend developer from Argentina</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fededivito/Proyecto-Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fededivito/Proyecto-Final/issues"
+  },
+  "homepage": "https://github.com/fededivito/Proyecto-Final#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
