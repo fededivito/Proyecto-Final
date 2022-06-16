@@ -1,0 +1,22 @@
+    SEO
+
+Agrego descripcion
+    <meta name="description" content="Somos una empresa con una trayectoria de mas de 20 años en el mercado, nos dedicamos a la produccion por mayor de accesorios y fundas protectoras para tu vehiculo">
+Agrego keywords
+    <meta name="keywords" content="fundas, accesorios, mascaras protectoras, fundas premium, fundas cuero, cubre auto, cubre moto, cubre volante, cubre cinto, mayorista, funda cuero automotor, auxilio, seguridad, confort, autos, motos, camionetas">
+Agrego opengraph
+    <meta property="og:title" content="M3Racing - Inicio - Fundas y accesorios para tu vehiculo">
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html">
+    <meta property="og:description" content="Somos una empresa con una trayectoria de mas de 20 años en el mercado, nos dedicamos a la produccion por mayor de accesorios y fundas protectoras para tu vehiculo">
+    <meta property="og:image" content="/multimedia/imagenes/m3racing-logo.webp">
+    <meta property="og:locale" content="es_ES">
+Agrego copyright
+    <meta name="copy" content="M3Racing">
+    <meta name="author" content="Federico Di Vito">
+
+Agrego titulos a los html
+    <title>M3Racing - Inicio - Fundas y accesorios para tu vehiculo</title>
+    <title>M3Racing - Productos - Fundas y accesorios para tu vehiculo</title>
+    <title>M3Racing - Distribuidores - Fundas y accesorios para tu vehiculo</title>
+    <title>M3Racing - Contacto - Fundas y accesorios para tu vehiculo</title>
+    <title>M3Racing - Clientes - Fundas y accesorios para tu vehiculo</title>
