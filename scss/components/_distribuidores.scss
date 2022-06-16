@@ -1,0 +1,26 @@
+/* Distribuidores */
+
+.distribuidores {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    font-size: 20px;
+    width: 100%;
+}
+
+.distribuidores p{
+    margin-bottom: 40px;
+}
+.tredema {
+    width: 50%; 
+}
+
+.fotos-distribuidores{
+    margin-bottom: 50px;
+}
+.fotos-distribuidores:hover {
+    transform: scale(1.5);
+    transition: all 2s;
+}

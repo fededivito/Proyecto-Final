@@ -36,6 +36,100 @@ header img {
   display: none; }
 
 /* FIN HEADER */
+/* Footer */
+.photo-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  background-color: grey;
+  align-items: center;
+  height: 250px; }
+
+.footer-div {
+  text-align: center;
+  height: 100px;
+  list-style: none; }
+
+footer div ul li {
+  text-align: center;
+  list-style: none;
+  margin-top: 10px; }
+
+footer div ul li img {
+  margin-right: 5px; }
+
+.fotos-footer {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  margin-left: 160px; }
+
+footer h5 {
+  font-size: 20px; }
+
+/* Fin footer */
+/* Productos*/
+.products {
+  margin-bottom: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  align-items: center;
+  height: 200px; }
+
+.products img:hover {
+  transform: scale(1.2);
+  transition: all 2s; }
+
+.mascara-p {
+  border: solid 1px black;
+  margin: 20px 20px 20px 20px;
+  width: 300px;
+  height: 200px;
+  grid-area: imagen1; }
+
+.funda-p {
+  border: solid 1px black;
+  margin: 20px 20px 20px 20px;
+  width: 200px;
+  height: 200px;
+  grid-area: imagen2; }
+
+.funda-a {
+  border: solid 1px black;
+  margin: 20px 20px 20px 20px;
+  width: 200px;
+  height: 200px;
+  grid-area: imagen3; }
+
+.cubre-a {
+  border: solid 1px black;
+  margin: 20px 20px 20px 20px;
+  width: 300px;
+  height: 200px;
+  grid-area: imagen4; }
+
+.cubre-m {
+  border: solid 1px black;
+  margin: 20px 20px 20px 20px;
+  width: 300px;
+  height: 200px;
+  grid-area: imagen5; }
+
+.cubre-v {
+  border: solid 1px black;
+  margin: 20px 20px 20px 20px;
+  width: 200px;
+  height: 200px;
+  grid-area: imagen6; }
+
+.p3 {
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 30px; }
+
+/* Fin productos */
 /*  MAIN */
 /*  Section 1 */
 .product-container {
@@ -100,98 +194,6 @@ section div {
   text-align: center; }
 
 /* Fin main */
-/* Footer */
-.photo-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  background-color: grey;
-  align-items: center;
-  height: 200px; }
-
-.footer-div {
-  text-align: center;
-  height: 100px;
-  list-style: none; }
-
-footer div ul li {
-  text-align: center;
-  list-style: none;
-  margin-top: 10px; }
-
-footer div ul li img {
-  margin-right: 5px; }
-
-.fotos-footer {
-  display: flex;
-  width: 15px;
-  height: 15px;
-  margin-left: 160px; }
-
-footer h5 {
-  font-size: 20px; }
-
-/* Fin footer */
-.p3 {
-  margin-top: 50px;
-  margin-left: 100px; }
-
-/* Productos*/
-.products {
-  margin-bottom: 400px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  align-items: center;
-  height: 200px; }
-
-.products img:hover {
-  transform: scale(1.2);
-  transition: all 2s; }
-
-.mascara-p {
-  border: solid 1px black;
-  margin: 20px 20px 20px 20px;
-  width: 300px;
-  height: 200px;
-  grid-area: imagen1; }
-
-.funda-p {
-  border: solid 1px black;
-  margin: 20px 20px 20px 20px;
-  width: 200px;
-  height: 200px;
-  grid-area: imagen2; }
-
-.funda-a {
-  border: solid 1px black;
-  margin: 20px 20px 20px 20px;
-  width: 200px;
-  height: 200px;
-  grid-area: imagen3; }
-
-.cubre-a {
-  border: solid 1px black;
-  margin: 20px 20px 20px 20px;
-  width: 300px;
-  height: 200px;
-  grid-area: imagen4; }
-
-.cubre-m {
-  border: solid 1px black;
-  margin: 20px 20px 20px 20px;
-  width: 300px;
-  height: 200px;
-  grid-area: imagen5; }
-
-.cubre-v {
-  border: solid 1px black;
-  margin: 20px 20px 20px 20px;
-  width: 200px;
-  height: 200px;
-  grid-area: imagen6; }
-
-/* Fin productos */
 /* Distribuidores */
 .distribuidores {
   margin-top: 30px;
@@ -220,7 +222,7 @@ footer h5 {
   .checkbtn {
     display: block; }
   .menu-icon {
-    display: block;
+    display: inline-block;
     position: fixed;
     top: 100px;
     right: 100px;
