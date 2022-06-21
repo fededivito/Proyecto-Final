@@ -1,3 +1,8 @@
+@import "../base/colores";
+@import "../base/extends";
+@import "../base/listas";
+@import "../base/mixins";
+
 /* Productos*/
 
 .products {
@@ -13,52 +18,29 @@
     transform: scale(1.2);
     transition: all 2s;
 }
+
 .mascara-p {
-    border: solid 1px black;
-    margin: 20px 20px 20px 20px;
-    width: 300px;
-    height: 200px;
-    grid-area: imagen1;
+    @extend %border-prod;
 }
 
 .funda-p {
-    border: solid 1px black;
-    margin: 20px 20px 20px 20px;
-    width: 200px;
-    height: 200px;
-    grid-area: imagen2;
+    @extend %border-prod;
 }
 
 .funda-a {
-    border: solid 1px black;
-    margin: 20px 20px 20px 20px;
-    width: 200px;
-    height: 200px;
-    grid-area: imagen3;
+    @extend %border-prod
 }
 
 .cubre-a {
-    border: solid 1px black;
-    margin: 20px 20px 20px 20px;
-    width: 300px;
-    height: 200px;
-    grid-area: imagen4;
+    @extend %border-prod;
 }
 
 .cubre-m {
-    border: solid 1px black;
-    margin: 20px 20px 20px 20px;
-    width: 300px;
-    height: 200px;
-    grid-area: imagen5;
+    @extend %border-prod;
 }
 
 .cubre-v {
-    border: solid 1px black;
-    margin: 20px 20px 20px 20px;
-    width: 200px;
-    height: 200px;
-    grid-area: imagen6;
+    @extend %border-prod;
 }
 
 .p3 {

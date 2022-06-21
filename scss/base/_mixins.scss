@@ -1,0 +1,16 @@
+@import "../base/extends";
+
+@mixin productos($margin, $width, $height) {
+    margin: $margin;
+    width: $width;
+    height: $height;
+}
+
+.funda-a , .funda-p, .cubre-v{
+    @include productos(20px 20px 20px 20px, 200px, 200px)
+}
+
+.mascara-p, .cubre-a, .cubre-m{
+    @include productos(20px 20px 20px 20px, 300px, 200px)
+}
+

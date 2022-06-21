@@ -1,11 +1,16 @@
+
+
+
+
 /* Footer */
 .photo-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    background-color: grey;
+    background-color: nth($color, 2);
     align-items: center;
     height: 250px;
+    
 }
 
 .footer-div {
@@ -18,10 +23,9 @@ footer div ul li {
     text-align: center;
     list-style: none;
     margin-top: 10px;
-}
-
-footer div ul li img {
-    margin-right: 5px;
+    img{
+        margin-right: 5px;
+    }
 }
 
 .fotos-footer {
