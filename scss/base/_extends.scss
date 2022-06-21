@@ -1,2 +1,18 @@
 // muchas propiedades distintas dentro de la misma extension
 // placeholder %
+
+%size-items {
+    width: 100px;
+    height: 100px;
+}
+
+%size-img-inicio {
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    width: 350px;
+    height: 350px;
+}
+
+%border-prod {
+    border: solid 1px black;
+}
