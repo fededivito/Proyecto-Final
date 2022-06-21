@@ -45,24 +45,20 @@
 <!-- Main -->
     <h1 class="h1">Contacto</h1>
 
-   <form action="form.php" method="POST" class="clientes">
+   <form action="form.php" method="POST" class="formulario">
         <div class="form-row">
             <label for="nombre">Ingrese su nombre y apellido</label>
-            <input type="text" placeholder="escribe tu nombre" id="nombre" class="casillas">
-        </div>
-        <div class="form-row">
-            <label for="telefono">Ingrese su telefono</label>
-            <input type="text" name="" id="telefono" class="casillas">
+            <input type="text" name="nombre" id="nombre" class="casillas">
         </div>
         <div class="form-row">
             <label for="email">Ingrese su email</label>
-            <input type="text" name="" id="email" class="casillas">
+            <input type="text" name="email" id="email" class="casillas">
         </div>
         <div class="form-row">
             <label for="mensaje">Ingrese su mensaje</label>
-            <input type="text" id="mensaje" class="casillas">
+            <textarea name="textarea" id="textarea"></textarea>
         </div>
-        <input type="submit" value="Registrarse" class="boton">
+        <input type="submit" value="Enviar" class="boton">
     </form>
     <!-- Footer -->
     <footer class="photo-grid-container">
@@ -82,37 +78,36 @@
         <h5>Redes</h5>  
         <ul>
             <li>
-                <a class="fotos-footer" href="https://www.instagram.com/m3racing2018/">
+                <a class="fotos-footer" target="_blank" href="https://www.instagram.com/m3racing2018/">
                 <img src="../multimedia/Imagenes/instagram-logo.png" alt="instagram">
                 Instagram
-            </a> 
+                </a> 
             </li>
             <li>
-                <a href="https://www.facebook.com/m3racing.com.ar/" class="fotos-footer">
-                    <img src="../multimedia/Imagenes/facebook-logo.png" alt="facebook">
+                <a href="https://www.facebook.com/m3racing.com.ar/" target="_blank" class="fotos-footer">
+                <img src="../multimedia/Imagenes/facebook-logo.png" alt="facebook">
                 Facebook
                 </a>
-           </li> 
+            </li> 
 
         </ul>
-        </div>  
-        <div class="footer-div">
-    <h5>Contactar</h5>
-
-        <ul>
-        <li>
-            <a class="fotos-footer" href="https://www.instagram.com/m3racing2018/">
+    </div>  
+    <div class="footer-div">
+        <h5>Contactar</h5>
+        <ul class="contact">
+            <li>
+                <a class="fotos-footer" href="#" target="_blank">
                 <img src="../multimedia/Imagenes/mail-logo.svg" alt="mail">
                 info@m3racing.com.
-            </a>
-        </li>
-        <li>   
-            <a href="https://www.facebook.com/m3racing.com.ar/" class="fotos-footer">
+                </a>
+            </li>
+            <li>   
+                <a href="#" target="_blank" class="fotos-footer">
                 <img src="../multimedia/Imagenes/logo-telefono.svg" alt="telefono" >
                 01147381835
-            </a>
-        </li> 
-             </ul>
+                </a>
+            </li> 
+        </ul>
         </div>   
     </footer>
 </body>

@@ -318,5 +318,8 @@ section div {
     justify-content: center;
   }
 }
+.disclaimer {
+  display: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */
