@@ -25,9 +25,6 @@
     @extend %size-img-inicio
   }
 
-/* Fin section 1 */
-
-/* Section 2 */
 .items-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -52,5 +49,3 @@
 section div {
     text-align:center;
 }
-
-/* Fin main */

@@ -1,5 +1,4 @@
-@import "../base/colores";
-@import "../base/variables";
+
 @import "../base/listas";
 
 /* HEADER */
@@ -7,44 +6,16 @@
 * {
     margin: 0;
     padding: 0;
-}
+}  
 
-header img {
-    height: 100px;
-}
-.menu-container {
-    display: flex;
-    background-color: nth($color, 2);
-    height: 150px;
-}
-
-.logo {
-    margin:30px;
-    margin-left: 30px;
-}
-
-.menu li {
-    width: 10%;
+.nav-item {
     padding-top: 70px;
     padding-left: 110px;
     display: inline-block;
     font-size: 20px;
-    a {
-        color: nth($color, 6);
-        text-decoration: none; 
-    }
 }
 
-
-
-.menu-icon img{
-    width: 35px;
-    height: 25px;
-    border-radius: 2px;
+.navbar-brand {
+    margin:30px;
+    margin-left: 30px;
 }
-
-.menu-icon, #check {
-    display: none;
-}
-
-/* FIN HEADER */
