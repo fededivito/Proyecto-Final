@@ -3,36 +3,16 @@
   margin: 0;
   padding: 0; }
 
-header img {
-  height: 100px; }
-
-.menu-container {
-  display: flex;
-  background-color: grey;
-  height: 150px; }
-
-.logo {
-  margin: 30px;
-  margin-left: 30px; }
-
-.menu ul li {
+.nav-item {
   padding-top: 70px;
   padding-left: 110px;
   display: inline-block;
   font-size: 20px; }
-  .menu ul li a {
-    color: white;
-    text-decoration: none; }
 
-.menu-icon img {
-  width: 35px;
-  height: 25px;
-  border-radius: 2px; }
+.navbar-brand {
+  margin: 30px;
+  margin-left: 30px; }
 
-.menu-icon, #check {
-  display: none; }
-
-/* FIN HEADER */
 /* Footer */
 .photo-grid-container {
   display: grid;
@@ -264,48 +244,6 @@ section div {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.clientes {
-  width: 400px;
-  background-color: black;
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 4px;
-  color: white;
-  box-shadow: 7px 13px 37px white; }
-  .clientes .casillas {
-    width: 100%;
-    background-color: white;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid black;
-    font-size: 18px; }
-  .clientes p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px; }
-  .clientes a {
-    color: white;
-    text-decoration: none; }
-    .clientes a:hover {
-      color: white;
-      text-decoration: underline; }
-
-.boton {
-  width: 100%;
-  background-color: grey;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px; }
 
 .disclaimer {
   display: none !important; }

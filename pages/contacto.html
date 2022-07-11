@@ -17,27 +17,41 @@
     <meta name="copy" content="M3Racing">
     <meta name="author" content="Federico Di Vito">
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>M3Racing - Contacto - Fundas y accesorios para tu vehiculo</title>
     <link rel="shortcut icon" href="../multimedia/Imagenes/M3racing-ico.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Header -->
-    <header class="menu-container">          
-        <a class="logo" href="../index.html"><img src="../multimedia/Imagenes/M3racing-logo.webp" alt="Logo M3Racing"></a>
-            <nav class="menu">
-                
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="menu-icon"><img src="../multimedia/Imagenes/menu-hamb.svg" alt=""></i>
-                </label>
-                
-                <ul>
-                    <li><a href="../pages/nosotros.html">Nosotros</a></li>
-                    <li><a href="../pages/productos.html">Productos</a></li>
-                    <li><a href="../pages/distribuidores.html">Distribuidores</a></li>                    
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
+    <header>          
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../multimedia/Imagenes/M3racing-logo.webp" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/distribuidores.html" >
+                      Distribuidores
+                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 <!-- Fin header -->
 
@@ -105,7 +119,9 @@
                 </a>
             </li> 
         </ul>
-        </div>   
+    </div>   
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
